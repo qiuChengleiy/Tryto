@@ -35,22 +35,110 @@ git clone git@github.com:qiuChengleiy/Tryto.git
 
 ### Document
 
-* 当前版本： 0.0.1
+* 当前版本： v0.0.1
 
-* [源码阅读](doc.md)
+* [源码阅读-您也可以通过阅读我的源码来给我提提意见 ~~ 感激~](doc.md)
+
+* API部分:
+
+###### DOM操作部分
+
+* domReady
+
+```js
+//1.$(function(){
+	//some codes here ...
+})
+
+//2.
+$.ready(function() {
+	//some codes here ...
+})
+
+//3.
+$($.ready(function(){
+	//some codes here ...
+}))
+```
+
+* 选择器
 
 ```js
 
-// some codes here ...
+语法：
+$('[css selector]')
+
+
+//实例 
+
+$('.div') // class is  .div
+
+$('#div') // id is div
+
+$('div') // 原生节点对象DIV
+
+$('div span') // 查找DIV的所有子节点span
+
+$('div .div')  // 查找div 下class为 .div的节点
+
+// === 更多用法请参照CSS选择器 ~~~
+
+如果您想获取实际的节点对象而不是实例 请调用：
+
+//例如:
+$('div').self_
+
+```
+
+* has()
+
+```js
+
+语法：
+$('[css selector]').has('[css selector]')
+
+
+//实例 
+
+$('.div').has('.div') // 判断.div节点下 是否有class为 .div的子节点
+
+
+// === 更多用法请参照CSS选择器 ~~~
+
+除了判断您还可以获取到这个节点做点其他的事情 :
+
+//例如：
+
+$('div').has('h1').innerHTML
+
+//也可以继续使用其它API来进行链式调用
+$('div').has('h1').test()  
+
+
+同样的 如果您想获取实际的节点对象而不是实例 请调用：
+
+$('div').has('h1').selfc_
+
+```
+
+* find()
+```js
+
+语法：
+$('[css selector]').has('[css selector]')
+
+// find() 用法和上边一样 其实这两个方法是一样的 只是语义上不同罢了 ~
+
 
 ```
 
 
+### 当前版本就更新到这啦 ~~~~~
 
 
+### 始终坚信
 
-
-
+* 敢于尝试的你 其实已经进步了
 
 
 
