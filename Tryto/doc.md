@@ -96,7 +96,7 @@ declare let $: any;
 
 			// 判断是否有节点 有返回true 没有返回false
 			if (searchSel) {
-				this.selfc_ = searchSel;
+			this.selfc_ = searchSel;
 			    this.selfc_.prototype = tryTo.prototype;
 				
 				return this;
@@ -114,7 +114,7 @@ declare let $: any;
 
 
 
-
+	//测试用例
 	tryTo.prototype.test = function() {
 		if(this.selfc_){
 			console.log('123')
