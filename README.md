@@ -67,6 +67,7 @@ $($.ready(function(){
 ```js
 
 语法：
+
 $('[css selector]')
 
 
@@ -96,6 +97,7 @@ $('div').self_
 ```js
 
 语法：
+
 $('[css selector]').has('[css selector]')
 
 
@@ -126,7 +128,8 @@ $('div').has('h1').selfc_
 ```js
 
 语法：
-$('[css selector]').has('[css selector]')
+
+$('[css selector]').find('[css selector]')
 
 // find() 用法和上边一样 其实这两个方法是一样的 只是语义上不同罢了 ~
 
