@@ -37,7 +37,7 @@ git clone git@github.com:qiuChengleiy/Tryto.git
 
 * 当前版本： v0.0.1
 
-* [源码阅读-您也可以通过阅读我的源码来给我提提意见 ~~ 感激~](./Tryto/doc.md)
+* [源码阅读-您也可以通过阅读我的源码来给我提提意见 ~~ 感激~](./Tryto/tryto.ts)
 
 * API部分:
 
