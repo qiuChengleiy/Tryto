@@ -43,10 +43,11 @@ git clone git@github.com:qiuChengleiy/Tryto.git
 
 ###### DOM操作部分
 
-* domReady
+* domReady DOM加载完毕后执行
 
 ```js
-//1.$(function(){
+//1.
+$(function(){
 	//some codes here ...
 })
 
@@ -90,7 +91,7 @@ $('div').self_
 
 ```
 
-* has()
+* has()  判断是否有节点
 
 ```js
 
@@ -121,7 +122,7 @@ $('div').has('h1').selfc_
 
 ```
 
-* find()
+* find() 同has()方法
 ```js
 
 语法：
