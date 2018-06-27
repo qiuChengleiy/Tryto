@@ -1,2 +1,5 @@
 /Tryto/node_modules/
 /Tryto/index.js
+/Tryto/test/node_modules/
+/Tryto/test/coverage/
+/Tryto/test/package-lock.json

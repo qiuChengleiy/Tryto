@@ -31,7 +31,28 @@ git clone git@github.com:qiuChengleiy/Tryto.git
 
 * 想尝试一番~ 对新事物总是产生好奇
 * 因为最近也在学typescript 基于它强大的类型系统 所以我想把它用到实际项目中 当然也考虑到读者可能不熟悉它的语法 所以应用了简单的判断
+* 项目之初也为了可行性，进行了单元测试，这样可以更加方便的进行开发
 
+#### 项目结构 /Tryto/
+
+``` sh
+├── dist/ # 打包存放目录
+	├── tryto.js # 打包后的js文件 
+├── node_modules/ # 模块目录
+├──	test/ # 单元测试目录
+	├── node_modules/
+	├── coverage/
+	├── test/ # 测试用存放目录
+		├── test.js # 测试文件
+	├── index.js
+	├── karma.conf.js # 配置文件
+	├── package.json
+├── index.html
+├── package.json
+├── webpack.config.js # webpack配置文件
+├── tsconfig.js # ts配置文件
+
+```
 
 ### Document
 

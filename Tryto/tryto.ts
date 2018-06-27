@@ -15,6 +15,8 @@
 declare let $: any;
 
 (function(window,document) {
+	'use strict';
+
 	//缓存一些变量
 	let win:any = window,
 		doc = document,
@@ -149,7 +151,8 @@ declare let $: any;
 
 
 
-	//外露接口 给window
+	//外露接口
+	win.tryTo = tryTo;
 	win.$ = tryTo;
 
 
